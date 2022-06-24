@@ -1,0 +1,38 @@
+.imgen{
+    margin:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.imgen:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+.imagenWhatsapp{
+    position:fixed;
+    right: 26px;
+    bottom: 50px;
+    width: 60px;
+    z-index: 1000;
+}
+.imagenWhatsapp img{
+    width: 100%;
+    height: auto;
+}
+.contenedorPagina {
+   min-height: 100vh;
+   
+  }
+  .pie{
+   position: absolute; 
+   bottom: 0;
+   width: 100%; 
+  }
+  
